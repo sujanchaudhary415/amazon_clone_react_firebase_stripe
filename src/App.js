@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Checkout from './Components/Checkout/Checkout';
 const App = () => {
   return (
     <Router>
@@ -13,7 +14,7 @@ const App = () => {
             element={
               <>
                 <Header />
-                <h1>I am the checkout smash that like button</h1>
+               <Checkout/>
               </>
             }
           ></Route>
